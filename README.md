@@ -1,1 +1,2 @@
-# raspberrypi
+# Sinbinet raspberrypi development SW
+
