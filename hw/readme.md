@@ -4,6 +4,6 @@
 
 
 ##### 진행상황
-  - 개발 현황
+  - 개발 현황 (2015 0607)
     - C 기반 GPIO 동작 기능 테스트 하였습니다.
     - https://github.com/jeonghoonkang/BerePi/issues/1
