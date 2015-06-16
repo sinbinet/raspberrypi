@@ -1,0 +1,27 @@
+DESCRIPTION OF FILES:
+
+python-gpio.deb: Debian package that includes the python-gpio module.
+		 More information at <gpcf.eu/projects/embedded/python-gpio>
+mcp3008.h:	 C header file for the MCP 3008 ADC.
+		 More information at <gpcf.eu/projects/embedded/adc>
+gpio.sh:	 Shell script that exports all the Raspberry Pi's GPIO pins
+		 to /sys/class/gpio.
+gpio.h:		 C header file for GPIO.
+adc.c:		 Example code to read values from the MCP 3008 ADC.
+adc:		 Compiled version of the adc.c file for ARMv6 (The Raspberry
+		 Pi's processor.
+
+MORE DETAILED DESCRIPTIONS:
+
+adc, adc.c	 Read a value from the input 0 of the ADC. Connect the ADC's 
+     		 clock pin to GPIO 4, the output pin to GPIO 14, the input pin
+		 to GPIO 15 and the CS pin to GPIO 17.
+
+RECCOMENDED PACKAGES:
+
+gcc		 C compiler
+python		 The python-gpio module was tested for version 2.7
+
+All files included were tested on a Raspberry Pi running Raspbian.
+
+Copyright (C) Gabriel Perez-Cerezo <http://gpcf.eu>
